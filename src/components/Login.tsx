@@ -14,7 +14,7 @@ type Form = {
 };
 
 const Login = () => {
-  const USER: Form = { username: "admin", password: "1234" };
+  const USER: Form = { username: "admin", password: "12345" };
 
   const [form, setForm] = useState<Form>({ username: "", password: "" });
   //error
