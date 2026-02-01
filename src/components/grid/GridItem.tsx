@@ -50,7 +50,7 @@ const GridItem = ({ pokemonURL }: Props) => {
         sx={{ width: 250, height: 300 }}
       >
         <img className="PokePreviewCard" src={data?.sprites.front_default} />
-        <Typography> {data?.name} </Typography>
+        <Typography className="pokeName" >{data?.name} </Typography>
         <Stack
           className="abilities"
           direction="row"

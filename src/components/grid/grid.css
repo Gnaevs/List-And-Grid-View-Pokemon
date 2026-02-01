@@ -1,6 +1,11 @@
 .PokePreviewCard {
     width: 200px;
 }
+.pokeName{
+    text-transform: capitalize;
+    color: black;
+    font-weight: 700;
+}
 
 .cardContainer {
     display: grid;
